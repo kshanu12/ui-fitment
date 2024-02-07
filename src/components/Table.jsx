@@ -3,8 +3,8 @@ import Box from "@mui/material/Box";
 import { DataGrid } from "@mui/x-data-grid";
 import Pagination from "@mui/material/Pagination";
 import { useDispatch } from "react-redux";
-import { editUser, deleteUser } from "@/redux/usersSlice";
-import styles from "@/styles/Home.module.css";
+import { editUser, deleteUser } from "../redux/usersSlice";
+import styles from "../styles/Home.module.css";
 
 export default function Table({ users }) {
   const dispatch = useDispatch();

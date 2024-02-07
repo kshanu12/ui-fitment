@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchUser, searchUser, selectFilteredUsers } from "@/redux/usersSlice";
 import styles from "../styles/Home.module.css";
-import SearchBar from "@/components/searchBar";
-import Table from "@/components/Table";
+import SearchBar from "../components/searchBar";
+import Table from "../components/Table";
 
 const IndexPage = () => {
   const dispatch = useDispatch();
