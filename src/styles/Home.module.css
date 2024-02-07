@@ -1,0 +1,46 @@
+.mainContainer {
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 36px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.tableContainer {
+  width: 60%;
+}
+
+.deleteBtn {
+  background: #ff5171;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 8px 15px;
+  border-radius: 15px;
+}
+
+.pagination {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.searchBar {
+  width: 60vw;
+  border: solid #e0e0e0 1px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.actionIcons {
+  width: 40%;
+  height: 60%;
+}
